@@ -1,4 +1,5 @@
 FROM debian:buster-slim as buildstage
+LABEL maintainer="Ibrahim Ethem DEMIRCI <https://ibrahim.demirci.com>"
 
 # Install dependencies
 RUN apt-get update && \
